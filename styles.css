@@ -1,0 +1,112 @@
+@font-face {
+  font-family: calculatorFont;
+  src: url('digital-7.ttf');
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color:rgba(255, 218, 162, 0.888);
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  color: blue;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.game {
+  background-color: rgba(255, 218, 162, 0.745);
+  padding: 2rem;
+  font-weight: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+}
+
+.game .me {
+  color: blue;
+}
+
+.game .cpu {
+  color: red;
+}
+
+.score {
+  text-align: center;
+  font-weight: 2rem;
+  font-size: 3rem;
+}
+
+.players p {
+  font-family: calculatorFont, sans-serif;
+  background-color: black;
+  color: red;
+}
+
+.players {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.results {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.rock {
+  background-image: url("../images/rock.png");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10rem;
+}
+
+.paper {
+  background-image: url("../images/paper.png");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+
+.scissors {
+  background-image: url("../images/scissors.png");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 218, 162, 0.888);
+  border: none;
+}
